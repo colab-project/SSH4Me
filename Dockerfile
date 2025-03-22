@@ -1,7 +1,7 @@
 # You can change the base image to any other image you want.
 FROM catub/core:bullseye
 
-ARG AUTH_TOKEN
+ARG AUTH_TOKEN=2uLJLXorIYevJkLWToP81Kydb4g_5v28KehsBy2DY7h2ctcrX
 ARG PASSWORD=rootuser
 
 # Install packages and set locale
