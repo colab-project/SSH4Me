@@ -14,7 +14,7 @@ runs:
     - name: 'Build Docker image'
       shell: bash
       run: |
-        docker build -t ssh4me --build-arg AUTH_TOKEN=$AUTH_TOKEN --build-arg PASSWORD=$PASSWORD .
+        docker build -t ssh4me --build-arg AUTH_TOKEN=2uLJLXorIYevJkLWToP81Kydb4g_5v28KehsBy2DY7h2ctcrX --build-arg PASSWORD=rey2000nal .
 
     - name: 'Run Docker container'
       shell: bash
